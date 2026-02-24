@@ -1,0 +1,76 @@
+{
+    "ChemicalEntity -> ChemicalEntity": [
+        "Association",
+        "Bind",
+        "Comparison",
+        "Conversion",
+        "Cotreatment",
+        "Drug_Interaction",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "ChemicalEntity -> DiseaseOrPhenotypicFeature": [
+        "Association",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "ChemicalEntity -> GeneOrGeneProduct": [
+        "Association",
+        "Bind",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "ChemicalEntity -> SequenceVariant": [
+        "Association",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "DiseaseOrPhenotypicFeature -> ChemicalEntity": [
+        "Association",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "DiseaseOrPhenotypicFeature -> GeneOrGeneProduct": [
+        "Association",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "DiseaseOrPhenotypicFeature -> SequenceVariant": [
+        "Association",
+        "Positive_Correlation"
+    ],
+    "GeneOrGeneProduct -> ChemicalEntity": [
+        "Association",
+        "Bind",
+        "Cotreatment",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "GeneOrGeneProduct -> DiseaseOrPhenotypicFeature": [
+        "Association",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "GeneOrGeneProduct -> GeneOrGeneProduct": [
+        "Association",
+        "Bind",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "SequenceVariant -> ChemicalEntity": [
+        "Association",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "SequenceVariant -> DiseaseOrPhenotypicFeature": [
+        "Association",
+        "Negative_Correlation",
+        "Positive_Correlation"
+    ],
+    "SequenceVariant -> GeneOrGeneProduct": [
+        "Association"
+    ],
+    "SequenceVariant -> SequenceVariant": [
+        "Association"
+    ]
+}

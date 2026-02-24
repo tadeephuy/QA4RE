@@ -1,0 +1,13 @@
+example_format: 'Entity 1: {}
+
+  Entity 2: {}
+
+  Relationship:'
+generation_times: 1
+max_tokens: 20
+random_seed: 42
+sent_intro: 'Sentence:'
+task_instructions: 'Given a Sentence, and two Entities within the Sentence, classify
+  the relationship between the two Entities based on the provided Sentence. All possible
+  Relationships are listed below:'
+temperature: 0

@@ -1,0 +1,13 @@
+task_instructions:
+- 'Determine which option can be inferred from the given Sentence.'
+max_tokens: 10
+generation_times:
+- 1
+example_format:
+- 'Sentence: {}
+
+Which option can be inferred from the given Sentence?
+
+Option:'
+temperature:
+- 0

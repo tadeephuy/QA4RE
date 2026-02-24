@@ -1,0 +1,52 @@
+{
+  "Association": {
+    "definition": "demonstrates a statistically significant, biologically meaningful, or clinically relevant relationship that links to without explicitly establishing directionality or direct causation toward",
+    "directional": false,
+    "causal": false
+  },
+  "Positive_Correlation": {
+    "definition": "positively regulates, activates, enhances, promotes, induces, or increases the expression, activity, level, or occurrence through a regulatory or mechanistic influence that supports a same direction relationship ending in",
+    "directional": true,
+    "causal": "Regulatory or mechanistic influence that may imply contribution but not necessarily direct causation"
+  },
+  "Negative_Correlation": {
+    "definition": "negatively regulates, inhibits, suppresses, blocks, reduces, or downregulates the expression, activity, level, or occurrence through a regulatory or mechanistic influence that supports an opposite direction relationship ending in",
+    "directional": true,
+    "causal": "Regulatory or mechanistic influence that may imply contribution but not necessarily direct causation"
+  },
+  "Bind": {
+    "definition": "physically binds to, directly interacts with, or forms a molecular complex through biochemical contact that results in stable or transient interaction involving",
+    "directional": false,
+    "causal": false
+  },
+  "Cotreatment": {
+    "definition": "is administered, applied, or experimentally evaluated in combination or simultaneously within the same biological, pharmacological, or clinical context together with",
+    "directional": false,
+    "causal": false
+  },
+  "Drug_Interaction": {
+    "definition": "alters, enhances, reduces, potentiates, interferes with, or modifies the pharmacokinetic or pharmacodynamic properties that determine the efficacy, metabolism, or toxicity of",
+    "directional": true,
+    "causal": true
+  },
+  "Conversion": {
+    "definition": "undergoes biochemical, enzymatic, or molecular transformation, processing, cleavage, or metabolic change that produces or results in",
+    "directional": true,
+    "causal": true
+  },
+  "Comparison": {
+    "definition": "is experimentally, clinically, or statistically evaluated against another condition or entity in a way that highlights differences or similarities relative to",
+    "directional": false,
+    "causal": false
+  },
+  "Treatment": {
+    "definition": "is therapeutically administered or applied with the intent to treat, prevent, mitigate, alleviate, reduce severity, or improve clinical outcomes related to",
+    "directional": true,
+    "causal": true
+  },
+  "Cause": {
+    "definition": "directly initiates, triggers, induces, or brings about the occurrence, development, or progression of a biological or pathological outcome defined as",
+    "directional": true,
+    "causal": true
+  }
+}
